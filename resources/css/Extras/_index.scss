@@ -1,0 +1,18 @@
+label.error{
+    color: red;
+    margin-bottom: 0;
+}
+.has-error {
+
+    .input-group-addon:first-child{
+        color: red;
+    }
+    .input-group-addon:first-child,
+    .input-group-addon:last-child,
+    .select2-container .select2-selection,
+    .form-control{
+        border-color: red !important;
+        box-shadow: none !important;
+    }
+
+}
